@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    height:450px;
+    width:250px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px 5px black;
+
+}
+
+.card-photo{
+    text-align: center;
+}
+
+.card-photo img{
+    width: 90%;
+    height: 80%;
+    margin-top: 0.8rem;
+    border-radius: 0.5rem;
+    /* text-align: center; */
+}
+
+.card-photo img:hover{
+    cursor: pointer;
+}
+
+.card-texts{
+    padding: 0 1.2rem;
+}
+.card-texts h4{
+    color: hsl(0, 0%, 100%);
+}
+.card-texts h4:hover{
+   color:hsl(178, 100%, 50%);
+   cursor:pointer;
+}
+.card-texts p{ 
+    color:hsl(215, 51%, 70%);
+    font-size: 13px;
+}
+
+.card-description{
+    padding: 0 1.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.align{
+    display:flex;
+    align-items: center;
+}
+.align img{
+    margin-right: 0.3rem;
+}
+
+.description-eth, .description-days{
+    font-size: 14px;
+}
+.description-eth{
+    color:hsl(178, 100%, 50%);
+}
+.description-days{
+    color:hsl(215, 51%, 70%);
+}
+
+hr{
+    width: 90%;
+    height: 1px;
+    border: 0;
+    background-color: hsl(215, 32%, 27%);
+}
+
+.card-avatar{
+    padding: 0 1.2rem;
+    display: flex;
+    align-items: center;
+    
+}
+
+.card-avatar img{
+    width: 10%;
+    border: white 1px solid;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+
+.card-avatar span{
+    font-size: 14px;
+    color:hsl(215, 51%, 70%);
+}
+.name{
+    color: hsl(0, 0%, 100%) !important;
+}
+.name:hover{
+    color:hsl(178, 100%, 50%) !important;
+    cursor:pointer;
+}
